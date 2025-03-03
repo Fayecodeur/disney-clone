@@ -43,12 +43,12 @@ export default function Slider() {
         {/* Flèche gauche */}
         <MdKeyboardArrowLeft
           onClick={sliderLeft}
-          className="text-white text-[50px] absolute mx-8 mt-[250px] z-50 cursor-pointer"
+          className="text-white text-[40px] absolute mx-8 mt-[250px] z-50 cursor-pointer"
         />
         {/* Flèche droite */}
         <MdKeyboardArrowRight
           onClick={sliderRight}
-          className="text-white text-[50px] absolute mx-8 mt-[250px] z-50 cursor-pointer right-0"
+          className="text-white text-[40px] absolute mx-8 mt-[250px] z-50 cursor-pointer right-0"
         />
       </div>
 
