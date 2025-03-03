@@ -15,5 +15,4 @@ const getVideos = async () => {
   }
 };
 
-// Export par défaut ✅
 export default getVideos;
