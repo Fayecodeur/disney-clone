@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { PiTelevisionBold } from "react-icons/pi";
 import { RiMovie2Line } from "react-icons/ri";
-import Logo from "../Images/disney-logo.png";
+import Logo from "../assets/Images/disney-logo.png";
 import HeaderItems from "./HeaderItems.jsx";
 import { useState } from "react";
 
@@ -25,7 +25,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-4 container mx-auto relative">
+    <header className="flex justify-between items-center p-3 container mx-auto relative">
       {/* Logo */}
       <div className="flex items-center">
         <img
