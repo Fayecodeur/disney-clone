@@ -36,7 +36,7 @@ export default function Slider() {
   };
 
   return (
-    <section>
+    <section className="mt-[60px]">
       <div className="relative">
         {/* Flèche gauche */}
         <MdKeyboardArrowLeft
@@ -66,7 +66,7 @@ export default function Slider() {
             <img
               src={`${IMAGE_BASE_URL}${item.backdrop_path}`}
               alt="image film"
-              className="w-full h-full object-conver"
+              className="w-full h-full object-cover"
             />
             <h2 className="font-semibold text-white text-4xl absolute bottom-[2rem] left-[2rem]">
               {item.name ? item.name : item.title}
