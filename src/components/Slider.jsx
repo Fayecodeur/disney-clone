@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import getVideos from "../Services/CallApi.jsx";
+import { getVideos } from "../Services/CallApi.jsx";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
 
 export default function Slider() {
